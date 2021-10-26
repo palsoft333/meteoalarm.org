@@ -3,7 +3,7 @@ Simple PHP warning and hazard scraper from the RSS of the newest website of EUME
 
 ## Usage
 ```php
-$_GET['country'] = "sk";
+$_GET['country'] = "it";
 include("meteoalarmorg.php");
 
 echo "<pre>";
