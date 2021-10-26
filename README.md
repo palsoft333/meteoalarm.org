@@ -2,7 +2,7 @@
 Simple PHP warning and hazard scraper from the RSS of the newest website of EUMETNET - meteoalarm.org. Feel free to pull new requests and/or fork this git.
 
 ## Usage
-```
+```php
 $_GET['country'] = "sk";
 include("meteoalarmorg.php");
 
