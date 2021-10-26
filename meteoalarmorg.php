@@ -66,6 +66,8 @@ if($_GET["country"]) {
             }
         }
     }
+    $json = json_encode($meteo_events);
+    echo $json;
 }
 else {
     die("You must specify a country in ISO format!");
