@@ -3,12 +3,9 @@ Simple PHP warning and hazard scraper from the RSS of the newest website of EUME
 
 ## Usage
 ```php
-$_GET['country'] = "it";
-include("meteoalarmorg.php");
+$alerts = file_get_contents('meteoalarmorg.php?country=IT');
 
-echo "<pre>";
-print_r($meteo_events); // array of all events for the specified country
-echo "</pre>";
+echo $alerts; // json of all events for the specified country (in ISO 2 char format)
 ```
 
 ## Example output
