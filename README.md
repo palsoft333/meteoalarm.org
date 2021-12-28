@@ -47,3 +47,5 @@ Italian(it-IT): parte meridionale  (DISCLAIMER: "Le informazioni fornite su METE
         )
 )
 ```
+
+<a href="https://www.buymeacoffee.com/palsoft"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=palsoft&button_colour=0091e6&font_colour=ffffff&font_family=Poppins&outline_colour=ffffff&coffee_colour=FFDD00"></a>
