@@ -73,8 +73,8 @@ if($_GET["country"]) {
                     $awtText = $eventHtml->find('td[data-awareness-level]', 0)->innertext;
                     preg_match('/awt:(\d+)/', $awtText, $awtMatch);
                     preg_match('/level:(\d+)/', $awtText, $levelMatch);
-                    $level = $awtMatch[1] ?? null;
-                    $awt = $levelMatch[1] ?? null;
+                    $level = $levelMatch[1] ?? null;
+                    $awt = $awtMatch[1] ?? null;
                 }
 
                 $description = null;
