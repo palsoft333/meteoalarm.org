@@ -1,3 +1,7 @@
+> [!WARNING]
+> meteoalarm.org deprecated its RSS feed.
+> I recommend to use MeteoGate API to acquire similar data. You can use my [meteogate.eu](https://github.com/palsoft333/meteogate.eu) repository for this means.
+
 # meteoalarm.org
 Simple PHP warning and hazard scraper from the RSS of the newest website of EUMETNET - meteoalarm.org. Feel free to pull new requests and/or fork this git.
 
